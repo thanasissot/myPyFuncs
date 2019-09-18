@@ -1,6 +1,6 @@
-def factorial(num):
+def factorial(n):
 	"""Returns the factorial of num
 	"""
-    if num == 1:
+    if n <= 1:
         return 1
-    return num * factorial(num-1)
+    return n * factorial(num-1)
